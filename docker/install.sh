@@ -21,8 +21,8 @@ current_dir=$(pwd)
 base_dir="${current_dir}/bili_tool_web"
 github_proxy=""
 github_branch="main"
-remote_compose_url="${github_proxy}https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/refs/heads/${github_branch}/docker/sample/docker-compose.yml"
-remote_ckJson_url="${github_proxy}https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/refs/heads/${github_branch}/docker/sample/config/cookies.json"
+remote_compose_url="${github_proxy}https://gh-proxy.com/raw.githubusercontent.com/nov23e/BiliBiliToolPro/refs/heads/${github_branch}/docker/sample/docker-compose.yml"
+remote_ckJson_url="${github_proxy}https://gh-proxy.com/raw.githubusercontent.com/nov23e/BiliBiliToolPro/refs/heads/${github_branch}/docker/sample/config/cookies.json"
 docker_img_name="registry.cn-guangzhou.aliyuncs.com/monose/bilibili_tool_pro"
 container_name="bili_tool_web"
 
